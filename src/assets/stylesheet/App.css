@@ -4,9 +4,9 @@
 }
 
 .App .grid-container {
-
+  align-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   display: grid;
-  grid-template-columns: auto auto auto auto auto;
 }
 
 
