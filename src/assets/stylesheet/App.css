@@ -1,0 +1,21 @@
+.App {
+  background-color: #ffffff;
+  min-height: 100vh;
+}
+
+.App .grid-container {
+
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+}
+
+
+.App .grid-item {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+
+
+
