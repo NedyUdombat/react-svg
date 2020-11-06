@@ -12,15 +12,6 @@
     "web-vitals": "^0.2.4"
   },
   "devDependencies": {
-    "eslint": "^6.6.0",
-    "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-config-prettier": "^4.2.0",
-    "eslint-config-react": "^1.1.7",
-    "eslint-loader": "^2.1.2",
-    "eslint-plugin-import": "^2.17.2",
-    "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-prettier": "^3.0.1",
-    "eslint-plugin-react": "^7.12.4",
     "prettier": "^1.17.0",
     "husky": "^2.1.0",
     "lint-staged": "^8.1.5"
@@ -30,8 +21,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "prettier": "prettier --write '**/*.{js,jsx}'",
-    "lint": "node_modules/eslint/bin/eslint.js --fix"
+    "prettier": "prettier --write '**/*.{js,jsx}'"
   },
   "husky": {
     "hooks": {

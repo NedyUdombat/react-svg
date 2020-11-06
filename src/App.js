@@ -1,89 +1,39 @@
+// stylesheet
 import './assets/stylesheet/App.css';
 
-import cross from './assets/images/cross.svg';
-import bus from './assets/images/bus.svg';
-import paperCup from './assets/images/paper-cup.svg';
-import ship from './assets/images/ship.svg';
-import shoe from './assets/images/shoe.svg';
-import user from './assets/images/user.svg';
-import pin from './assets/images/pin.svg';
-import flag from './assets/images/flag.svg';
+// components
+import Svg from './component/Svg';
 
 function App() {
   return (
     <div className="App">
       <div className="grid-container">
-        <div class="grid-item">
-          <img
-            src={pin}
-            className="icon"
-            alt="logo"
-            width="100px"
-            height="100px"
-          />
+        <div className="grid-item">
+          <Svg className="icon-cross w-30 h-50" />
         </div>
-        <div class="grid-item">
-          <img
-            src={bus}
-            className="icon"
-            alt="logo"
-            width="100px"
-            height="100px"
-          />
+        <div className="grid-item">
+          <Svg className="icon-bus w-199" />
         </div>
-        <div class="grid-item">
-          <img
-            src={paperCup}
-            className="icon"
-            alt="logo"
-            width="100px"
-            height="100px"
-          />
+        <div className="grid-item">
+          <Svg className="icon-user w-199 h-0" />
         </div>
-        <div class="grid-item">
-          <img
-            src={ship}
-            className="icon"
-            alt="logo"
-            width="100px"
-            height="100px"
-          />
+        <div className="grid-item">
+          <Svg className="icon-pin w-19 h-30" />
         </div>
-        <div class="grid-item">
-          <img
-            src={shoe}
-            className="icon"
-            alt="logo"
-            width="100px"
-            height="100px"
-          />
+        <div className="grid-item">
+          <Svg className="icon-flag w-199 h-40" />
         </div>
-        <div class="grid-item">
-          <img
-            src={user}
-            className="icon"
-            alt="logo"
-            width="100px"
-            height="100px"
-          />
+        <div className="grid-item">
+          <Svg className="icon-paper-cup w-49" />
         </div>
-        <div class="grid-item">
-          <img
-            src={flag}
-            className="icon"
-            alt="logo"
-            width="100px"
-            height="100px"
-          />
+        <div className="grid-item">
+          <Svg className="icon-shoe w-159 h" />
         </div>
-        <div class="grid-item">
-          <img
-            src={cross}
-            className="icon"
-            alt="logo"
-            width="100px"
-            height="100px"
-          />
+        <div className="grid-item">
+          <Svg className="icon-ship w-9 h-20" />
+        </div>
+        <div className="grid-item">
+          <Svg className="icon-selfDrivingCar w-159" />
         </div>
       </div>
     </div>
