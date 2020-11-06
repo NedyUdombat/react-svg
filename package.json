@@ -19,13 +19,20 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-scripts test --coverage --watchAll=false",
     "eject": "react-scripts eject",
     "prettier": "prettier --write '**/*.{js,jsx}'"
   },
+  "jest": {
+    "coveragePathIgnorePatterns": [
+      "/node_modules/",
+      "<rootDir>/src/index.js",
+      "<rootDir>/src/reportWebVitals.js"
+    ]
+  },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged && yarn prettier"
+      "pre-commit": "lint-staged && yarn prettier && yarn test"
     }
   },
   "lint-staged": {
