@@ -20,7 +20,7 @@ const Svg = props => {
     }
   }
 
-  const iconName = name
+  let iconName = name
     ? require(`../../assets/images/${name}.svg`).default
     : '';
 
